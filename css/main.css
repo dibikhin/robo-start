@@ -1,0 +1,142 @@
+ td {
+   vertical-align: middle !important;
+ }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.giant-text {   /* index  */
+    font-size: 40px; margin-top: 5px; color: grey;
+}
+
+.redo-button {    /* index */
+    margin-left: 1px !important;
+}
+
+.palette {
+    z-index: 100;
+    position: fixed;
+    top: 62px;
+    left: 10px;
+    height: 0px;
+}
+
+.draggable {
+    cursor: move;
+    text-align: left;
+}
+
+.tab-content {
+    margin-top: 51px;
+}
+
+.mysites-pane {
+    padding: 30px;
+}
+
+#pseudo-body {
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.ui-state-highlight { /* main.js */
+    background-color: white;
+    border: 3px dashed lightseagreen;
+}
+
+.seize-highlight {
+    background-color: white;
+    border: 3px dashed lightseagreen;
+}
+
+.hidden-el {    /* main & index */
+    display: none;
+}
+
+.button-remove-wrap {
+    top: 15px;
+    position: relative;
+    right: 15px;
+}
+
+.button-remove {
+    cursor: pointer;
+    float: right;
+    display: none;
+    margin: 10px;
+
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 10;
+}
+
+.button-handle-wrap {
+    top: 15px;
+    position: relative;
+    right: 15px;
+}
+
+.button-handle {
+    cursor: pointer;
+    float: right;
+    display: none;
+    margin: 10px;
+
+    position: absolute;
+    top: 5px;
+    right: 85px;
+    z-index: 11;
+}
+
+.button-replace-img {
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    z-index: 15;
+}
+
+.button-replace-background-img {
+    position: absolute;
+    left: 1217px;
+    z-index: 15;
+}
+
+.button-remove-background-img {
+  position: absolute;
+  left: 1217px;
+  top: 39px;
+  z-index: 15;
+  width: 121px;
+}
+
+.sortable {
+    min-height: 500px;
+}
+
+.block-img {    /* index */
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+.map-panel {    /* index & main */
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 45%;
+  margin: auto;
+}
+
+.video-panel {  /* index  & main */
+  display: none;
+  width: 50%;
+  margin: auto;
+}
